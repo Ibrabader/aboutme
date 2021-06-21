@@ -1,0 +1,42 @@
+
+
+h1  {
+    font-size: 60px;
+color: rgb(27, 3, 3);
+    text-align: center;
+    background-color: rgb(128, 126, 123);
+    padding-bottom: 15px;
+}
+
+h2 {
+padding-top: 20px;
+padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(223, 214, 201);
+    font-size: 30px;
+
+}
+article { background-color: rgb(223, 214, 201);}
+img {
+   padding-top: 60px;
+    width :50%;
+    padding-left: 25%;
+}
+
+p {
+
+    padding-top: 30px;
+    background-color: rgb(223, 214, 201);
+    font-size: 20px;
+    padding-bottom: 5px;
+    line-height: normal;
+    padding-left: 5px;
+   
+   
+}
+ul {
+    background-color: rgb(223, 214, 201);
+    padding-left: 25px;
+    font-size: 20px;
+    line-height: normal;
+}
