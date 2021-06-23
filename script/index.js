@@ -82,6 +82,7 @@ switch (uo.toLowerCase()){
 alert ( ' okay you dont wanna guess,its NO by theway')
 }
 }
+function seblings(){
 let bro;
 let counter = 0; 
 while ( counter < 4){
@@ -105,6 +106,7 @@ while ( counter < 4){
       if (counter== 4){
         alert (' You have finished all of your tries , the correct answer is 4 ');
         }
+      }
 let maxtries = 6;
 let fruit = ['apple',' banana'];
 for ( let i=0;i<maxtries;i++){
@@ -131,4 +133,5 @@ travel();
 gitar();
 color();
 RealMadrid();
+seblings();
 alert ('Thank you '+TheName+', hope you enjoyed it here, your score is' + score + ' out of 7')
