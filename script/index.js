@@ -2,6 +2,7 @@
 let TheName = prompt('Can i get to know you first?, whats your name?');
 alert ( 'Welcome  '+ TheName + ' hope your ready to get to know me');
 let score =0 ;
+function catperson(){
 let cat = prompt ( 'Do you think that i am a cat person?')
 switch (cat.toLowerCase()){
     case 'yes':
@@ -15,6 +16,7 @@ switch (cat.toLowerCase()){
   break;
   default: 
 alert ( ' okay, to the next question')
+}
 }
 let travel = prompt ( 'Do you think that i am a traveller?')
 switch (travel.toLowerCase()){
@@ -116,4 +118,5 @@ else {
         break;
 }
 }
+catperson();
 alert ('Thank you '+TheName+', hope you enjoyed it here, your score is' + score + ' out of 7')
