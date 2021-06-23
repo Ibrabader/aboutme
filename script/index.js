@@ -18,6 +18,7 @@ switch (cat.toLowerCase()){
 alert ( ' okay, to the next question')
 }
 }
+function travel(){
 let travel = prompt ( 'Do you think that i am a traveller?')
 switch (travel.toLowerCase()){
     case 'yes': 
@@ -31,6 +32,7 @@ switch (travel.toLowerCase()){
   break;
   default: 
 alert ( ' okay you dont wanna say, to the next question')
+}
 }
 let gitar = prompt ( 'Do you think that i paly gitar?')
 switch (gitar.toLowerCase()){
@@ -119,4 +121,5 @@ else {
 }
 }
 catperson();
+travel();
 alert ('Thank you '+TheName+', hope you enjoyed it here, your score is' + score + ' out of 7')
