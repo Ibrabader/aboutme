@@ -50,7 +50,7 @@ switch (gitar.toLowerCase()){
 alert ( ' okay you dont wanna guess,its NO by theway')
 }
 }
-function color();{
+function color(){
 let clr = prompt ( 'Is your favourite colour yellow?  ')
 switch (clr.toLowerCase()){
     case 'yes':
@@ -66,6 +66,7 @@ switch (clr.toLowerCase()){
 alert ( ' okay you dont wanna guess,its NO by theway')
 }
 }
+function RealMadrid(){
 let uo = prompt ( 'Do you thinks that i support RealMadrid?  ')
 switch (uo.toLowerCase()){
     case 'yes': 
@@ -79,6 +80,7 @@ switch (uo.toLowerCase()){
   break;
   default: 
 alert ( ' okay you dont wanna guess,its NO by theway')
+}
 }
 let bro;
 let counter = 0; 
@@ -128,4 +130,5 @@ catperson();
 travel();
 gitar();
 color();
+RealMadrid();
 alert ('Thank you '+TheName+', hope you enjoyed it here, your score is' + score + ' out of 7')
