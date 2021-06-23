@@ -34,6 +34,7 @@ switch (travel.toLowerCase()){
 alert ( ' okay you dont wanna say, to the next question')
 }
 }
+function gitar(){
 let gitar = prompt ( 'Do you think that i paly gitar?')
 switch (gitar.toLowerCase()){
     case 'yes': 
@@ -47,6 +48,7 @@ switch (gitar.toLowerCase()){
   break;
   default: 
 alert ( ' okay you dont wanna guess,its NO by theway')
+}
 }
 let clr = prompt ( 'Is your favourite colour yellow?  ')
 switch (clr.toLowerCase()){
@@ -122,4 +124,5 @@ else {
 }
 catperson();
 travel();
+gitar();
 alert ('Thank you '+TheName+', hope you enjoyed it here, your score is' + score + ' out of 7')
