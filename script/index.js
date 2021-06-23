@@ -1,136 +1,137 @@
 'use strict';
 
 
-let TheName = prompt('Can i get to know you first?, whats your name?');
+// let TheName = prompt('Can i get to know you first?, whats your name?');
 
-alert ( 'Welcome  '+ TheName + ' hope your ready to get to know me');
-let score =0 ;
+// alert ( 'Welcome  '+ TheName + ' hope your ready to get to know me');
+// let score =0 ;
 
-let cat = prompt ( 'Do you think that i am a cat person?')
-switch (cat.toLowerCase()){
-    case 'yes':
-        case 'y': 
-        score++; 
-    alert('THIS IS CORRECT !!!')
-    break;
-  case 'no' : 
-  case 'n':
+// let cat = prompt ( 'Do you think that i am a cat person?')
+// switch (cat.toLowerCase()){
+//     case 'yes':
+//         case 'y': 
+//         score++; 
+//     alert('THIS IS CORRECT !!!')
+//     break;
+//   case 'no' : 
+//   case 'n':
     
-  alert(' NO! i do love cats')
-  break;
-  default: 
-alert ( ' okay, to the next question')
-}
+//   alert(' NO! i do love cats')
+//   break;
+//   default: 
+// alert ( ' okay, to the next question')
+// }
 
-let travel = prompt ( 'Do you think that i am a traveller?')
-switch (travel.toLowerCase()){
-    case 'yes': 
-    case 'y': 
-    score++; 
-    alert('Indeed i am')
-    break;
-  case 'no' : 
-  case 'n':
+// let travel = prompt ( 'Do you think that i am a traveller?')
+// switch (travel.toLowerCase()){
+//     case 'yes': 
+//     case 'y': 
+//     score++; 
+//     alert('Indeed i am')
+//     break;
+//   case 'no' : 
+//   case 'n':
   
-  alert(' Not correct, i am, now you know well ' + TheName )
-  break;
-  default: 
-alert ( ' okay you dont wanna say, to the next question')
-}
+//   alert(' Not correct, i am, now you know well ' + TheName )
+//   break;
+//   default: 
+// alert ( ' okay you dont wanna say, to the next question')
+// }
 
-let gitar = prompt ( 'Do you think that i paly gitar?')
-switch (gitar.toLowerCase()){
-    case 'yes': 
-    case 'y': 
-    alert('Thanks for beliveing in me '+ TheName + ' but i dont' )
+// let gitar = prompt ( 'Do you think that i paly gitar?')
+// switch (gitar.toLowerCase()){
+//     case 'yes': 
+//     case 'y': 
+//     alert('Thanks for beliveing in me '+ TheName + ' but i dont' )
     
-    break;
-  case 'no' : 
-  case 'n':
-    score++; 
-  alert(' Yes i have no idea about how to, but sure i like it' )
-  break;
-  default: 
-alert ( ' okay you dont wanna guess,its NO by theway')
-}
+//     break;
+//   case 'no' : 
+//   case 'n':
+//     score++; 
+//   alert(' Yes i have no idea about how to, but sure i like it' )
+//   break;
+//   default: 
+// alert ( ' okay you dont wanna guess,its NO by theway')
+// }
 
-let clr = prompt ( 'Is your favourite colour yellow?  ')
-switch (clr.toLowerCase()){
-    case 'yes':
-        case 'y': 
+// let clr = prompt ( 'Is your favourite colour yellow?  ')
+// switch (clr.toLowerCase()){
+//     case 'yes':
+//         case 'y': 
         
     
-    alert(  'wrong, no i hate it' )
-    break;
-  case 'no' : 
-  case 'n':
-    score++; 
-  alert(' Correct answer' )
-  break;
-  default: 
-alert ( ' okay you dont wanna guess,its NO by theway')
-}
-let uo = prompt ( 'Do you thinks that i support RealMadrid?  ')
-switch (uo.toLowerCase()){
-    case 'yes': 
-    case 'y': 
-    score++; 
-    alert(  'HALA MADRID' )
-    break;
-  case 'no' : 
-  case 'n':
+//     alert(  'wrong, no i hate it' )
+//     break;
+//   case 'no' : 
+//   case 'n':
+//     score++; 
+//   alert(' Correct answer' )
+//   break;
+//   default: 
+// alert ( ' okay you dont wanna guess,its NO by theway')
+// }
+// let uo = prompt ( 'Do you thinks that i support RealMadrid?  ')
+// switch (uo.toLowerCase()){
+//     case 'yes': 
+//     case 'y': 
+//     score++; 
+//     alert(  'HALA MADRID' )
+//     break;
+//   case 'no' : 
+//   case 'n':
      
-  alert(' WRONG! i do support real Madrid ' )
-  break;
-  default: 
-alert ( ' okay you dont wanna guess,its NO by theway')
-}
+//   alert(' WRONG! i do support real Madrid ' )
+//   break;
+//   default: 
+// alert ( ' okay you dont wanna guess,its NO by theway')
+// }
 
 
 
-let bro = prompt ( ' How many seblings do you think i have ? ');
-let counter = 0; 
-while ( counter < 4){
+// let bro = prompt ( ' How many seblings do you think i have ? ');
+// let counter = 0; 
+// while ( counter < 4){ 
     
-    if ( bro == 4 ) { 
-        alert ( ' CORRECT ! ');
-        score++;
-        break;
-        }
-        else if  (bro >= 8 ) {
-        alert ( ' too high');
+//     if ( bro == 4 ) { 
+//         alert ( ' CORRECT ! ');
+//         score++;
+//         break;
+//         }
+//         else if  (bro >= 8 ) {
+//         alert ( ' too high');
       
-        }
-        else if (bro <= 2 ){ 
-        alert ( ' too low');}
+//         }
+//         else if (bro <= 2 ){ 
+//         alert ( ' too low');}
        
-        else if (counter== '4'){
-        alert (' You have finished all of your tries , the correct answer is 4 ');
-        }
-       else {
-        alert ( ' Try Again');
-    }
-    counter++;
-       bro = prompt ( ' How many seblings do you think i have ? ');}
-
-
+//         else if (counter == 3){
+//         alert (' You have finished all of your tries , the correct answer is 4 ');
+//         break;
+//         }
+//        else {
+//         alert ( ' Try Again');
+//     }
+//     counter++;
+//        bro = prompt ( ' How many seblings do you think i have ? ');}
 
 
 let maxtries = 6;
 let fruit = ['apple',' banana'];
-for ( var i=0;i<maxtries;i++){
+
+for ( var i=0; i<maxtries;i++){
+
 let useranswer = prompt ( ' What is my favourite fruit ? ').toLowerCase();
     if (useranswer == fruit[1].toLowerCase() ) { 
     alert ( ' CORRECT ! ');
     score++; 
- 
     break;}
     if (useranswer == fruit[0].toLowerCase() ) { 
         alert ( ' CORRECT ! ')
         score++; 
         break;}
         else if ( i== maxtries)
-        {alert (' You have finished all of your tries , the correct answers are  '+ fruit)
+        {
+            alert (' You have finished all of your tries , the correct answers are  '+ fruit);
         break;
     }
    else {
@@ -140,6 +141,7 @@ let useranswer = prompt ( ' What is my favourite fruit ? ').toLowerCase();
 }
 
 
-
-
 alert ('Thank you '+TheName+', hope you enjoyed it here, your score is' + score + ' out of 7')
+
+
+
