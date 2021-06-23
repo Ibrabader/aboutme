@@ -50,6 +50,7 @@ switch (gitar.toLowerCase()){
 alert ( ' okay you dont wanna guess,its NO by theway')
 }
 }
+function color();{
 let clr = prompt ( 'Is your favourite colour yellow?  ')
 switch (clr.toLowerCase()){
     case 'yes':
@@ -63,6 +64,7 @@ switch (clr.toLowerCase()){
   break;
   default: 
 alert ( ' okay you dont wanna guess,its NO by theway')
+}
 }
 let uo = prompt ( 'Do you thinks that i support RealMadrid?  ')
 switch (uo.toLowerCase()){
@@ -125,4 +127,5 @@ else {
 catperson();
 travel();
 gitar();
+color();
 alert ('Thank you '+TheName+', hope you enjoyed it here, your score is' + score + ' out of 7')
